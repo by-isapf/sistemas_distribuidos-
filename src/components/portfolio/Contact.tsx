@@ -4,7 +4,7 @@ import { useState } from "react";
 import { toast } from "@/hooks/use-toast";
 
 const EMAIL = "isabel.freire114@gmail.com";
-const LINKEDIN = "https://www.linkedin.com/in/isabel-freire";
+const LINKEDIN = "https://www.linkedin.com/in/isabel-freire-421974304/";
 const GITHUB = "https://github.com/by-isapf";
 
 export const Contact = () => {
