@@ -3,64 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#7c3aed" />
-    
     <meta name="google-site-verification" content="weLVAgmJ3bH6NDgYOJVDx1BDQWZd-rvo8tCfwSjq6Ck" />
-
-    <link rel="icon" href="./favicon.ico" />
-    <link rel="manifest" href="./manifest.json" />
-    
-    <link rel="canonical" href="https://isabel.grupo4.sd.ufersa.dev.br/" />
-
-    <title>Isabel Freire | Portfólio | Tecnologia da Informação e Pesquisa</title>
-
-    <meta
-      name="description"
-      content="Portfólio de Isabel Freire, estudante de Tecnologia da Informação pela UFERSA e pesquisadora de iniciação científica. Especialista em competências de Sistemas Distribuídos e Desenvolvimento de Software."
-    />
-
-    <meta
-      name="keywords"
-      content="Isabel Freire, portfólio, Tecnologia da Informação, UFERSA, Sistemas Distribuídos, pesquisa, iniciação científica, desenvolvimento de software, programação, React, JavaScript, Java, Python"
-    />
-
-    <meta name="author" content="Isabel Freire" />
-    <meta name="robots" content="index, follow" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Isabel Freire | Portfólio UFERSA</title>
 
     <style>
-      /* Estilo básico para o conteúdo não ficar feio se o React falhar */
-      body { font-family: 'Inter', sans-serif; background-color: #f9fafb; color: #1f2937; margin: 0; }
-      .fallback-content { max-width: 800px; margin: 100px auto; padding: 20px; text-align: center; }
-      .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-      h1 { color: #7c3aed; }
-      ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-      li { background: #ede9fe; color: #5b21b6; padding: 8px 16px; border-radius: 20px; font-weight: 500; }
+      body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f3f4f6; }
+      .container { background: white; padding: 2rem; border-radius: 12px; shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; border: 2px solid #7c3aed; }
+      h1 { color: #7c3aed; margin-bottom: 0.5rem; }
+      li { background: #ede9fe; margin: 5px; padding: 5px 10px; border-radius: 5px; display: inline-block; color: #5b21b6; font-weight: bold; }
     </style>
   </head>
-
   <body>
     <div id="root">
-      <div class="fallback-content">
-        <div class="card">
-          <h1>Isabel Freire</h1>
-          <p>Estudante de Tecnologia da Informação - UFERSA</p>
-          <p>Pesquisadora de Iniciação Científica</p>
-          <hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 20px 0;">
-          <h3>Principais Competências:</h3>
+      <div class="container">
+        <h1>Isabel Freire</h1>
+        <p>Estudante de TI - UFERSA | Sistemas Distribuídos</p>
+        <div style="margin-top: 20px;">
+          <strong>Competências:</strong><br><br>
           <ul>
             <li>Sistemas Distribuídos</li>
-            <li>Desenvolvimento Web (React)</li>
-            <li>Java & Python</li>
-            <li>Infraestrutura AWS</li>
+            <li>Configuração de DNS (AWS)</li>
+            <li>Google Search Console</li>
+            <li>Desenvolvimento React</li>
           </ul>
         </div>
       </div>
     </div>
-
-    <script type="module" src="./src/main.tsx"></script>
+    <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
