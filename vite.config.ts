@@ -19,5 +19,7 @@ export default defineConfig(({ mode }) => ({
     },
     dedupe: ["react", "react-dom", "react/jsx-runtime", "react/jsx-dev-runtime", "@tanstack/react-query", "@tanstack/query-core"],
   },
-  base: '/',
+  // Alterado de '/' para './' para garantir que os caminhos sejam relativos
+  // e funcionem corretamente no domínio da UFERSA/GitHub Pages
+  base: './',
 }));
