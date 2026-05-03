@@ -6,51 +6,52 @@
     <meta name="google-site-verification" content="weLVAgmJ3bH6NDgYOJVDx1BDQWZd-rvo8tCfwSjq6Ck" />
     <title>Isabel Freire | Portfólio UFERSA</title>
     <style>
-        /* O !important garante que nada esconda este conteúdo */
         body { 
             background-color: #7c3aed !important; 
-            margin: 0 !important; 
-            display: flex !important; 
-            justify-content: center !important; 
-            align-items: center !important; 
-            height: 100vh !important;
-            font-family: sans-serif !important;
+            margin: 0; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh;
+            font-family: 'Inter', sans-serif, system-ui;
         }
-        .vitoria {
-            background: white !important;
-            padding: 40px !important;
-            border-radius: 20px !important;
-            text-align: center !important;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2) !important;
-            display: block !important; /* Força a exibição */
-            visibility: visible !important;
-            opacity: 1 !important;
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            width: 90%;
+            max-width: 500px;
         }
-        h1 { color: #7c3aed !important; margin: 0 !important; }
-        p { color: #4b5563 !important; font-size: 1.2rem !important; }
+        h1 { color: #7c3aed; margin: 0; font-size: 2rem; }
+        p { color: #4b5563; font-size: 1.1rem; margin: 10px 0; }
+        .tags { margin-top: 20px; }
         .tag {
-            display: inline-block !important;
-            background: #ede9fe !important;
-            color: #5b21b6 !important;
-            padding: 5px 15px !important;
-            border-radius: 50px !important;
-            margin: 5px !important;
-            font-weight: bold !important;
+            display: inline-block;
+            background: #ede9fe;
+            color: #5b21b6;
+            padding: 6px 12px;
+            border-radius: 50px;
+            margin: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
     <div id="root">
-        <div class="vitoria">
+        <div class="card">
             <h1>Isabel Freire</h1>
-            <p>Estudante de TI - UFERSA</p>
-            <div style="margin-top: 20px !important;">
+            <p>Tecnologia da Informação - UFERSA</p>
+            <div class="tags">
                 <span class="tag">Sistemas Distribuídos</span>
                 <span class="tag">AWS Route 53</span>
                 <span class="tag">Google Search Console</span>
+                <span class="tag">React & Vite</span>
             </div>
-            <p style="font-size: 0.9rem !important; margin-top: 20px !important; color: #9ca3af !important;">
-                Site em processamento técnico (Propagação DNS OK)
+            <p style="font-size: 0.8rem; margin-top: 30px; color: #9ca3af;">
+                Status: Domínio UFERSA vinculado com sucesso via GitHub Pages.
             </p>
         </div>
     </div>
